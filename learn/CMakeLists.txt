@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.0)
+project(use_sophus)
+find_package(Sophus REQUIRED)
+include_directories(${Sophus_INCLUDE_DIRS})
+add_executable(use_sophus eigen_rotation.cpp)
+target_link_libraries(use_sophus ${Sophus_LIBRARIES})

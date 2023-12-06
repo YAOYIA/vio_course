@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/eigen_sophus.dir/eigen_rotation.cpp.o  -o eigen_sophus -lSophus 
